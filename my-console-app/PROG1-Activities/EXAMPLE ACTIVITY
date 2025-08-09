@@ -1,0 +1,16 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int myNum = 5;
+		myNum += 10; //15
+		
+		int myNum2 = 7;
+		myNum2 -= 2; //5
+	    
+		Console.WriteLine("This is the value of myNum: " + myNum);
+		Console.WriteLine("This is the value of myNum: " + myNum2);
+		
+	}
